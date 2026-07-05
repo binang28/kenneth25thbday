@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #ff69b4;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+  text-align: center;
+}
+p {
+  text-align: left;
+  font-family: "Brush Script MT", cursive;  /* sets the font */
+  font-size: 30px;        /* controls text size */
+  color: #333333;         /* sets text color */
+  line-height: 1.6;       /* improves readability */
+  margin: 20px; 
+}
+.right-scroll {
+  width: 300px;              /* adjust width */
+  height: 570px;  
+  margin-right: 20px;           /* adjust height */
+  overflow-y: scroll;        /* vertical scroll */
+  float: right;              /* position on the right side */
+  border: 2px solid #ff69b4; /* optional border */
+  padding: 10px;
+  background-color: #fff0f5; /* light pink background */
+}
+
+.right-scroll img {
+  display: block;
+  width: 100%;               /* make images fit container */
+  margin-bottom: 15px;       /* spacing between images */
+  border-radius: 10px;       /* rounded corners */
+  
+}
